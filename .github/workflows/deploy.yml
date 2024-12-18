@@ -24,8 +24,8 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t aidanadevops2023/portfolio-2:latest2 .
-        docker push aidanadevops2023/portfolio-2:latest2
+        docker build -t aidanadevops2023/portfolio-2:latest3 .
+        docker push aidanadevops2023/portfolio-2:latest3
 
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v3
